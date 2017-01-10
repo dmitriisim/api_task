@@ -1,0 +1,26 @@
+h1 {
+	text-transform: uppercase;
+	margin: 10px 0 5px 0;
+}
+.form-control {
+	text-align: center;
+}
+.row {
+	background-color: #D3D3D3;
+	margin: 0;
+	border-bottom: 2px dashed red;
+}
+.row:last-child {
+	border-bottom: 0px;
+}
+.col-md-1 {
+	padding: 5px 0 0 5px;
+}
+.white-color {
+	color: white;
+}
+
+@media screen and (max-width: 599px) {
+	.row {text-align: center;}
+	.img-responsive {max-width: 50%;}
+}
